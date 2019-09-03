@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'mgenplus-black';
+    src: url('./font/cp_period.woff2');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'mgenplus-black';
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-color: rgb(255, 0, 100);
+    font-size: 1em;
+    font-weight: bold;
+    text-shadow: 8px 0px 0px #11005fc0;
+    background-image: url(sozai/back.png);
+}
+
+.ankenbox {
+    color: #ffffffa2;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    border-radius: 10px;
+    background: rgba(32, 32, 32, 0.664);
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+  }
+  }
+  p {
+    text-align: center;
+  }
+  
+  @media ( min-width : 600px ){
+      .flexbox {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      max-height: 800px;
+      }
+    .item {
+      width: 28%;
+    }
+  }
