@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>ミニ掲示板</title>
+</head>
+<link rel="stylesheet" href="test.css">
+<body>
+ミニ掲示板(<a href="bbs.php">リロード</a>)<hr>
+<form method="post" action="bbs.php">
+<input type="hidden" name="mode" value="write">
+<div class="box14">
+    <p>
+投稿フォーム<br>
+名前　：<input type="text" name="name" size="20"><br>
+会社名：<input type="text" name="name" size="20"><br>
+<form>                
+        年度  ：  <select name="年度">
+        <option value="1">平成20年</option>
+        <option value="2">平成21年</option>
+        <option value="3">平成23年</option>
+        <option value="4">平成24年</option>
+        <option value="5">平成25年</option>
+        <option value="6">平成26年</option>
+        <option value="7">平成27年</option>
+        <option value="8">平成28年</option>
+        <option value="9">平成29年</option>
+        <option value="10">平成30年</option>
+        <option value="11">平成31年</option>
+        <option value="12" selected>令和元年</option>
+        </select>
+    </form>
+メッセージ：<br>
+<textarea name="message" rows="10" cols="80"></textarea><br>
+<input type="submit" value="　投稿する　">
+</form>
+</p>
+</div>
+<hr>
+</body>
+</html>
