@@ -2,45 +2,47 @@
     font-family: 'mgenplus-black';
     src: url('./font/cp_period.woff2');
 }
+
 body {
     font-family: 'mgenplus-black';
     margin: 0;
-    
     background-color: rgb(0, 0, 255);
     font-weight: bold;
-    text-shadow: 8px 0px 0px #1f1f1fc0;
+    text-shadow: 4px 0px 0px #1f1f1fc0;
     color: aliceblue;
 }
 
-.卍{
+.卍 {
     text-align: center;
 }
 
-.back{
-    padding: 0px 150px 0px;
+.back {
+    padding: 0px 50px 0px;
 }
 
 .box {
     display: flex;
     padding: 20px;
     align-items: center;
-  }
-  .box:nth-child(even) {
-    flex-direction: row-reverse;
-  }
-  
-  body {
-    line-height: 1.4;
-  }
-  .box img {
+}
+
+.box img {
     margin: 0 20px 0 0;
     max-width: 100px;
-  height: auto;
-  }
-  .box:nth-child(even) img {
+    height: auto;
+}
+
+.box:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+
+
+.box:nth-child(even) img {
     margin: 0 0 0 20px;
-  }
-  h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
+}
+
+h2 {
+    font-size: 1.5em;
+    
+}
