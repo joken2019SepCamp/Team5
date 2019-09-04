@@ -13,17 +13,27 @@ body {
 }
 
 .卍 {
+    font-size: 2em;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
 .back {
-    padding: 0px 50px 0px;
+    padding:0px 15vw 0px;
 }
 
 .box {
     display: flex;
-    padding: 20px;
+    width:60vw;
+    padding: 60px;
     align-items: center;
+    border-radius: 30px;
+    background: rgba(7, 7, 7, 0.308);
+    margin: 15px;
+    text-align: center;
 }
 
 .box img {
@@ -36,13 +46,10 @@ body {
     flex-direction: row-reverse;
 }
 
-
-
 .box:nth-child(even) img {
     margin: 0 0 0 20px;
 }
 
 h2 {
     font-size: 1.5em;
-    
 }
