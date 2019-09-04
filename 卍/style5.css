@@ -1,33 +1,48 @@
-.box17{
-    margin:2em 0;
-    position: relative;
-    padding: 0.5em 1.5em;
-    border-top: solid 2px black;
-    border-bottom: solid 2px black;
+@font-face {
+    font-family: 'mgenplus-black';
+    src: url('./font/rounded-l-mgenplus-1c-black.woff2');
 }
-.box17:before, .box17:after{
-    content: '';
-    position: absolute;
-    top: -10px;
-    width: 2px;
-    height: -webkit-calc(100% + 20px);
-    height: calc(100% + 20px);
-    background-color: black;
+
+body {
+    font-family: 'mgenplus-black';
+    margin: 0;
+    background: linear-gradient(-135deg, rgb(91, 255, 228), rgb(66, 66, 235));
+    font-weight: bold;
+    text-shadow: 4px 0px 0px #1f1f1fc0;
+    color: aliceblue;
+    width: 100vw;
+    height: 100vh;
 }
-.box17:before {left: 10px;}
-.box17:after {right: 10px;}
-.box17 p {
-    margin: 0; 
-    padding: 0;
+
+
+.flexbox2{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fome{
+
+}
+
+.fome2{
+
 }
 .box14{
-    padding: 0.2em 0.5em;
-    margin: 2em 0;
-    background: #d6ebff;
-    box-shadow: 0px 0px 0px 10px #d6ebff;
-    border: dashed 2px white;
+
+    display: flex;
+    flex-direction:column;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
-.box14 p {
-    margin: 0; 
-    padding: 0;
+
+.reload
+{
+    width: 100px;
+    height: 100px;
+    text-align: center;
 }
