@@ -2,39 +2,47 @@
 
 <head>
     <meta charset="utf-8">
-    <title>投稿フォーム</title>
+    <title>akb</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style6.css">
 </head>
-<link rel="stylesheet" href="style5.css">
 
 <body>
+    <div class="flexbox">
+        <ul>
 
-    <form method="post" action="bbs.php">
-        <input type="hidden" name="mode" value="write">
-
-
-
-        <div class="flexbox">
-            <div class="box1">
-                <div class="fome"><input type="text" placeholder="NAME"name="name" size="20" class="text_input"></div>
-                <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
-                <div class="fome"><input type="text" placeholder="TITLE"name="name" size="20" class="text_input"></div>
-                <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
-                <div class="fome"><input type="text" placeholder="CAMPANY"name="name" size="20" class="text_input"></div>
-                <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+            <div class="item"
+                onclick="obj=document.getElementById('menu1').style; obj.display=(obj.display=='none')?'block':'none';">
+                <li><a style="cursor:pointer;">2019</a></li>
             </div>
-
-
-            <div class="box2">
-                <div class="fome2"><p>▼ MESSAGE</p></div>
-                <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
-                <div class="fome2"><textarea name="message" rows="10" cols="60"class="text_input2"></textarea></div>
-                <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
-                <div class="fome2"><input type="submit" value="　POST　"class="text_input"></div>
-                <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+            <div id="menu1" style="display:none;clear:both;">
+                <ul>
+                    <li>3/32</li>
+                </ul>
             </div>
-
-        </div>
-    </form>
+            <hr>
+            <div class="item"
+                onclick="obj=document.getElementById('menu2').style; obj.display=(obj.display=='none')?'block':'none';">
+                <li><a style="cursor:pointer;">2020</a></li>
+            </div>
+            <div id="menu2" style="display:none;clear:both;">
+                <ul>
+                    <li>2/11</li>
+                </ul>
+            </div>
+            <hr>
+            <div class="item"
+                onclick="obj=document.getElementById('menu3').style; obj.display=(obj.display=='none')?'block':'none';">
+                <li><a style="cursor:pointer;">2021</a></li>
+            </div>
+            <div id="menu3" style="display:none;clear:both;">
+                <ul>
+                    <li>5/1</li>
+                </ul>
+            </div>
+    </div>
+    </ul>
+    </div>
 </body>
 
 </html>
