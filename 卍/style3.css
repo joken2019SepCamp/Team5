@@ -1,56 +1,52 @@
 @font-face {
-    font-family: 'mgenplus-black';
-    src: url('./font/cp_period.woff2');
+  font-family: 'mgenplus-black';
+  src: url('./font/cp_period.woff2');
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'mgenplus-black';
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    background-color: rgb(0, 0, 255);
-    font-weight: bold;
-    text-shadow: 8px 0px 0px #1f1f1fc0;
-   color: aliceblue
-}
-
-.ankenbox {
-    width: 100vw;
-    display: flex;
+  font-family: 'mgenplus-black';
+  margin: 0;
+  padding: 0;
+  width: 98vw;
+  background-color: rgb(0, 0, 255);
+  font-weight: bold;
+  text-shadow: 8px 0px 0px #1f1f1fc0;
+  color: aliceblue;
 }
 
 .item {
-    border-radius: 8px;
-    background: rgba(59, 59, 59, 0.664);
-    padding: 20px;
-    margin: 5px;
-    text-align: center;
+  border-radius: 10px;
+  background: rgba(7, 7, 7, 0.637);
+  padding: 30px;
+  margin: 5px;
+  text-align: center;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
-  p {
-    text-align: left;
-    font-size: 0.9em;
-  }
 
-  .syamei{
-    text-align: center;
-    font-size: 1.2em;
+.syamei {
+  font-size: 1.2em;
+  height: auto;
+}
+
+p {
+  font-size: 1em ;
+  text-align: left;
+}
+
+@media ( min-width: 600px) {
+  .flexbox {
+    margin: 0 auto;
+    padding: 5px;
+    column-count: 3;
+    column-gap: 0;
   }
-  
-  @media ( min-width : 600px ){
-    .flexbox {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    max-height: 800px;
-    }
   .item {
-    width: 33%;
+    width: auto;
   }
 }

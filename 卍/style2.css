@@ -17,8 +17,27 @@ body {
     font-weight: bold;
     text-shadow: 8px 0px 0px #11005fc0;
     background-image: url(sozai/back.png);
+    background:linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB) url(sozai/back.png) no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+
 }
 
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+.home:visited{
+    color: rgb(255, 255, 255);
+  }
 .home {
     color: #ffffffa2;
     width: 100vw;
@@ -27,38 +46,36 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-.hako1{
+.joboffer:visited{
+    color: rgb(255, 255, 255);
+  }
+.hako1 {
     color: #ffffffde;
     width: 84vw;
     height: 50vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-   
-
 }
 
 .joboffer {
     width: 28vw;
     height: 70vh;
-  
     display: flex;
     justify-content: center;
     align-items: center;
     border-right: solid 1px #ffffff;
-    
 }
-
+.ob:visited{
+    color: rgb(255, 255, 255);
+  }
 .ob {
     width: 28vw;
     height: 70vh;
-    
     display: flex;
     justify-content: center;
     align-items: center;
     border-right: solid 1px #ffffff;
-  
 }
 
 .coment {
@@ -67,5 +84,4 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
