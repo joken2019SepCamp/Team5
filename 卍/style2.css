@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100vw;
-    background-color: rgb(255, 0, 100);
+    background-color: rgb(0, 6, 87);
     font-size: 3em;
     font-weight: bold;
     text-shadow: 8px 0px 0px #11005fc0;
@@ -20,21 +20,11 @@ body {
 
 }
 
+a:link { color:#ffffff; }
+a:visited { color:#ffffff; text-decoration:none }
+a:hover { color:#ffffff; text-decoration:none }
+a:active { color:rgb(255, 255, 255); text-decoration:none }
 
-@keyframes Gradient {
-    0% {
-        background-position: 0% 50%
-    }
-    50% {
-        background-position: 100% 50%
-    }
-    100% {
-        background-position: 0% 50%
-    }
-}
-.home:visited{
-    color: rgb(255, 255, 255);
-  }
 .home {
     color: #ffffffa2;
     width: 100vw;
@@ -43,9 +33,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-.joboffer:visited{
-    color: rgb(255, 255, 255);
-  }
 .hako1 {
     color: #ffffffde;
     width: 84vw;
@@ -63,9 +50,6 @@ body {
     align-items: center;
     border-right: solid 1px #ffffff;
 }
-.ob:visited{
-    color: rgb(255, 255, 255);
-  }
 .ob {
     width: 28vw;
     height: 70vh;
