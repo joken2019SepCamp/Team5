@@ -36,7 +36,6 @@ body {
 
 .box2 {
     widows: 100vw;
-    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
