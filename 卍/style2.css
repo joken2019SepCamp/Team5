@@ -23,9 +23,7 @@ body {
 
 }
 
-body:visited{
-    color: rgb(255, 255, 255);
-  }
+
 @keyframes Gradient {
     0% {
         background-position: 0% 50%
@@ -37,7 +35,9 @@ body:visited{
         background-position: 0% 50%
     }
 }
-
+.home:visited{
+    color: rgb(255, 255, 255);
+  }
 .home {
     color: #ffffffa2;
     width: 100vw;
@@ -46,7 +46,9 @@ body:visited{
     justify-content: center;
     align-items: center;
 }
-
+.joboffer:visited{
+    color: rgb(255, 255, 255);
+  }
 .hako1 {
     color: #ffffffde;
     width: 84vw;
@@ -64,7 +66,9 @@ body:visited{
     align-items: center;
     border-right: solid 1px #ffffff;
 }
-
+.ob:visited{
+    color: rgb(255, 255, 255);
+  }
 .ob {
     width: 28vw;
     height: 70vh;
