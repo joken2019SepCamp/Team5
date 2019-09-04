@@ -32,7 +32,6 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){//POSTだったら
         // セッションIDが盗まれていた場合
         // なりすましによる不正な操作を防ぐために
         // ログイン直前にセッションIDを切り替える！！
-        $_SESSION['account'] = $account;      // ログイン
         header('Location: '.SITE_URL.'index2.php');
         exit;
     }

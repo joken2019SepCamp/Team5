@@ -14,9 +14,9 @@
     <div class="login">
       <form action="" method="post">
         <label>メールアドレス</label><br>
-        <input type="mail" name="mail"><?php echo html_escape($errs['mail']); ?><br>
+        <input type="mail" name="mail"><br>
         <label>パスワード</label><br>
-        <input type="password" name="password"maxlength="15"><?php echo html_escape($errs['password']); ?>
+        <input type="password" name="password"maxlength="15">
         <input type="submit" value="ログイン">
       </form>
     </div>
