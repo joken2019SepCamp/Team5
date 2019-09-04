@@ -2,17 +2,20 @@
 
 <head>
     <meta charset="utf-8">
-    <title>ミニ掲示板</title>
+    <title>投稿フォーム</title>
 </head>
 <link rel="stylesheet" href="style5.css">
 
 <body>
 
-    <hr>
     <form method="post" action="bbs.php">
         <input type="hidden" name="mode" value="write">
-            <div class="box14">
-                <div class="fome"> NAME：<input type="text" name="name" size="20"></div>
+
+
+
+        <div class="flexbox">
+            <div class="box1">
+                <div class="fome">NAME：<input type="text" name="name" size="20"></div>
                 <div class="fome">TITLE：<input type="text" name="name" size="20"></div>
                 <div class="fome">CAMPANY：<input type="text" name="name" size="20"></div>
                 <div class="fome">
@@ -33,24 +36,23 @@
                         </select>
                     </form>
                 </div>
-                <div class="fome"></div>
-                ▼MESSAGE▼<br>
-                <textarea name="message" rows="10" cols="80"></textarea><br>
-                <input type="submit" value="　POST　">
             </div>
-        </div>
 
-        </div>
-        <div class="flexbox2">
+
+            <div class="box2">
+                <div class="fome2">
+                    <p>▼ MESSAGE</p>
+                    <textarea name="message" rows="10" cols="80">
+                    </textarea>
+                    <input type="submit" value="　POST　">
+                </div>
+            </div>
+
             <div class="reload">
                 (<a href="bbs.php">RELOAD</a>)
             </div>
         </div>
     </form>
-
-    </p>
-    </div>
-    <hr>
 </body>
 
 </html>
