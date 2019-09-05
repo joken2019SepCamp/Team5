@@ -24,12 +24,25 @@ body {
     text-align: center;
     flex-direction: column;
 }
+a:link { color:#ffffff; }
+a:visited { color:#ffffff; text-decoration:none }
+a:hover { color:#ffffff; text-decoration:none }
+a:active { color:rgb(255, 255, 255); text-decoration:none }
+.toukou{
+    display: flex;
+    background: rgba(7, 7, 7, 0.637);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    font-size: 0.7em;
+}
+
 .item {
     display: flex;
     background: rgba(7, 7, 7, 0.637);
-    padding: 30px;
-    max-width: 30vw;
-    margin: 5px;
+    padding: 40px;
+  
+    margin: 30px;
     text-align: center;
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
@@ -37,10 +50,15 @@ body {
   }
 
   #menu1 #menu2 #menu3 {
-    border-radius: 10px;
+    border-radius: 20px;
     background: rgba(7, 7, 7, 0.637);
-    padding: 30px;
+    padding: 20px;
     margin: 5px;
+    text-align: center;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    max-width: 50vw;
     text-align: center;
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
