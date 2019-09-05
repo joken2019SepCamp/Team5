@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'mgenplus-black';
+    src: url('./font/cp_period.woff2');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'mgenplus-black';
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-color: rgb(255, 0, 100);
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 8px 0px 0px #11005fc0;
+    background-image: url(sozai/back.png);
+}
+
+.home {
+    color: #ffffffa2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hako1{
+    color: #ffffffde;
+    width: 84vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+}
+
+.joboffer {
+    width: 28vw;
+    height: 70vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: solid 1px #ffffff;
+    
+}
+
+.ob {
+    width: 28vw;
+    height: 70vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: solid 1px #ffffff;
+  
+}
+
+.coment {
+    width: 28vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

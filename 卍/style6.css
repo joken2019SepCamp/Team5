@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'mgenplus-black';
+    src: url('./font/cp_period.woff2');
+}
+
+body {
+    font-family: 'mgenplus-black';
+    margin: 0;
+    background-image: url(sozai/back2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+    font-weight: bold;
+    text-shadow: 4px 0px 0px #1f1f1fc0;
+    color: aliceblue;
+}
+.flexbox{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.item {
+    display: flex;
+    background: rgba(7, 7, 7, 0.637);
+    padding: 30px;
+    max-width: 30vw;
+    margin: 5px;
+    text-align: center;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  #menu1 #menu2 #menu3 {
+    border-radius: 10px;
+    background: rgba(7, 7, 7, 0.637);
+    padding: 30px;
+    margin: 5px;
+    text-align: center;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
