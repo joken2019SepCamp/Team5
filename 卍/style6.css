@@ -29,19 +29,18 @@ a:visited { color:#ffffff; text-decoration:none }
 a:hover { color:#ffffff; text-decoration:none }
 a:active { color:rgb(255, 255, 255); text-decoration:none }
 .toukou{
-    width: 100vw;
-    height: 10vh;
-    justify-content: center;
-    align-items: center;
     display: flex;
+    background: rgba(7, 7, 7, 0.637);
+    padding: 20px;
+    margin: 10px;
     text-align: center;
-    flex-direction: column;
+    font-size: 0.7em;
 }
 
 .item {
     display: flex;
     background: rgba(7, 7, 7, 0.637);
-    padding: 20px;
+    padding: 40px;
   
     margin: 30px;
     text-align: center;
